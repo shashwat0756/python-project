@@ -8,13 +8,10 @@ while True:
         with open("todoss.txt", "r") as file:
              todos = file.readlines()
 
-
-
         todos.append(todo)
 
         with open("todoss.txt", "w") as file:
             file.writelines(todos)
-
 
     elif "show" in user_action:
         with open("todoss.txt", "r") as file:

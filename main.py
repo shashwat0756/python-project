@@ -21,7 +21,7 @@ while True:
             todos = file.readlines()
         for index, i in enumerate(todos):
             i = i.strip("\n")
-            row = f"{index + 1}-{i}"
+            row = f"{index + 1}.{i}"
             print(row)
 
     elif user_action.startswith("edit"):

@@ -14,7 +14,7 @@ while True:
     user_action = user_action.strip()
 
     if user_action.startswith("add"):
-        todo = user_action[4:]+"\n"
+        todo = user_action[4:]+ "\n"
 
         todos = get_todos("todoss.txt")
 

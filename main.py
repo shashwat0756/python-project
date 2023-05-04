@@ -21,7 +21,7 @@ while True:
 
         todos.append(todo)
 
-        write_todos(todos,"todoss.txt")
+        write_todos(todos)
 
 
     elif user_action.startswith("show"):

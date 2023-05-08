@@ -1,4 +1,9 @@
 import function
+import time
+
+now = time.strftime("%b %d %Y %H %M: %S")
+print(now)
+
 while True:
     user_action = input("type add ,show,edit,complete or exit: ")
     user_action = user_action.strip()

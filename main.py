@@ -5,6 +5,8 @@ now = time.strftime("%b %d %Y %H %M: %S")
 print(now)
 
 while True:
+    """
+    Read input from function file"""
     user_action = input("type add ,show,edit,complete or exit: ")
     user_action = user_action.strip()
 

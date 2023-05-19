@@ -26,6 +26,8 @@ while True:
            todos[index] = new_todo + "\n"
            function.write_todos(todos)
            window["todos"].update(values=todos)
+        case "complete":
+            
        case sg.WIN_CLOSED:
            break
 

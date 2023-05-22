@@ -9,7 +9,7 @@ def write_todos(todos_args,filepath="todoss.txt"):
         file.writelines(todos_args)
 
 
-print(type(__name__))
+
 if __name__ == "__main__":
      print("hello")
 

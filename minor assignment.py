@@ -3,7 +3,7 @@ from zip_creator import make_achive
 
 label1 = sg.Text("Select files to compress")
 input1 = sg.Input()
-button_1 = sg.FileBrowse("Choose",key="files")
+button_1 = sg.FilesBrowse("Choose",key="files")
 label2 = sg.Text("select destination folder")
 input2 = sg.Input()
 button_2 = sg.FolderBrowse("choose",key = "folder")
@@ -15,6 +15,7 @@ while True:
    filepaths = values["files"].split(";")
    folder = values["folder"]
    make_achive(filepaths,folder)
+   print("hello")
 
 window.close()
 
